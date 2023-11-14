@@ -1,26 +1,20 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
-steps to run the application :
+# Steps to run the application:
 
  
-Step 1 - npm i vite json-server bootstrap axios react-router-dom
+Step 1 - Run the following command to install the necessary dependencies 
 
-Step 2 - Set-ExecutionPolicy -Scope CurrentUser
+    npm i vite json-server bootstrap axios react-router-dom
 
-Step 3 - change directory to the current one 
+Step 2 - Set the execution policy to CurrentUser 
 
-Step 4 - json-server --watch src/db.json
+    Set-ExecutionPolicy -Scope CurrentUser
 
-    click on the link to see the database 
+Step 3 - Run the following command to start the JSON server. Once the server is up, click on the link displayed in the terminal to see the database in the browser.
 
-Step 5 - npm run dev 
+    json-server --watch src/db.json
 
-     click on the url to open the web application 
+**Note: Do not close the terminal in which the JSON server is running. Open a new terminal and proceed to Step 4.**
+
+Step 4 - Run the following command to start the application. Once the application is up,click on the link displayed in the terminal to see the application in the browser.
+
+    npm run dev
