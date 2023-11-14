@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "name": "John Doe",
+      "email": "john.doe@mail.com",
+      "phone": "5551234667",
+      "id": 10
+    },
+    {
+      "name": "Aakanksh Sharma",
+      "email": "aakanksh.sharma@example.com",
+      "phone": "5555678756",
+      "id": 11
+    },
+    {
+      "name": "Alice Johnson",
+      "email": "alice.johnson@gmail.com",
+      "phone": "5559012456",
+      "id": 12
+    },
+    {
+      "name": "Bob Smith",
+      "email": "bob.smith@gmail.com",
+      "phone": "5553456456",
+      "id": 13
+    },
+    {
+      "name": "Eva Brown",
+      "email": "eva.brown@example.com",
+      "phone": "5557890678",
+      "id": 14
+    },
+    {
+      "name": "Michael Clark",
+      "email": "michael.clark@gmail.com",
+      "phone": "5552345738",
+      "id": 15
+    },
+    {
+      "name": "Sophie Miller",
+      "email": "sophie.miller@example.com",
+      "phone": "5556789243",
+      "id": 16
+    },
+    {
+      "name": "Poojitha Keshav",
+      "email": "poojitha@gmail.com",
+      "phone": "8974635165",
+      "id": 17
+    }
+  ]
+}
